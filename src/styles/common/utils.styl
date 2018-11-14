@@ -7,16 +7,16 @@
 
 .animation-rotation {
   animation-name rotation
-  animation-duration: 3s
+  animation-duration: 3000ms
   animation-iteration-count: infinite
   animation-timing-function linear
 }
 
 @keyframes rotation {
-    from {
+    0% {
       transform: translate(-50%, -50%) rotate(0deg)
     }
-    to {
+    100% {
       transform: translate(-50%, -50%) rotate(360deg)
     }
 }

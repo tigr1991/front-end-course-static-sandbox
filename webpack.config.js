@@ -9,7 +9,12 @@ module.exports = {
 		new CleanWebpackPlugin(['dist']),
 		new HtmlWebpackPlugin({
 			inject: true,
-			template: './index.html',
+			filename: 'clickCounter/index.html',
+			template: './html/clickCounter.html',
+		}),
+		new HtmlWebpackPlugin({
+			inject: true,
+			template: './html/index.html',
 		}),
 		new webpack.HotModuleReplacementPlugin(),
 	],
