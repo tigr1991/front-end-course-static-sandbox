@@ -10,11 +10,11 @@ module.exports = {
 		new HtmlWebpackPlugin({
 			inject: true,
 			filename: 'clickCounter/index.html',
-			template: './html/clickCounter.html',
+			template: './src/clickCounter/index.html',
 		}),
 		new HtmlWebpackPlugin({
 			inject: true,
-			template: './html/index.html',
+			template: './src/main/index.html',
 		}),
 		new webpack.HotModuleReplacementPlugin(),
 	],

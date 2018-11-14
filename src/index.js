@@ -1,3 +1,3 @@
-import './styles/index.styl'
-import '../html/clickCounter.html'
-import '../html/index.html'
+import './common/styles/index.styl'
+import './clickCounter'
+import './main'
